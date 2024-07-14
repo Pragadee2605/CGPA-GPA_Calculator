@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_cgpa.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Container for grades EditText -->
+    <LinearLayout
+        android:id="@+id/container_grades_cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- EditText for initial grade -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Grade"/>
+    </LinearLayout>
+
+    <!-- Button to add more EditText -->
+    <Button
+        android:id="@+id/button_add_grade_cgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Grade"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+
+    <!-- Button to calculate CGPA -->
+    <Button
+        android:id="@+id/button_calculate_cgpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate CGPA"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+    <!-- TextView to display result -->
+    <TextView
+        android:id="@+id/textView_result_cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
