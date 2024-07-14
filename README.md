@@ -1,4 +1,4 @@
-                **Anna University CGPA and GPA Calculator**
+**Anna University CGPA and GPA Calculator**
                 
 This Android application allows Anna University students to calculate their Cumulative Grade Point Average (CGPA) and Grade Point Average (GPA) easily.
 
@@ -14,7 +14,8 @@ This Android application allows Anna University students to calculate their Cumu
 
 **Offline Support:** Calculations can be done offline once the app is installed.
 
-**  Screenshots**
+**Screenshots**
+![Uploading Screenshot 2024-07-14 at 5.29.22 PM.png…]()
+![Uploading Screenshot 2024-07-14 at 5.29.30 PM.png…]()
 
 
-<img width="358" alt="Screenshot 2024-07-14 at 5 29 42 PM" src="https://github.com/user-attachments/assets/065195f2-3068-4822-af9c-0231f259adb8">
